@@ -31,7 +31,7 @@ function score(opponentMove, ourMove) {
     (opponentMove === moves.scissors && ourMove === moves.rock)
   ) {
    
-    return ourMove + 6;
+  return ourMove + 6;
   }
 
   return ourMove;
